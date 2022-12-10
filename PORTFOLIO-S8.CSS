@@ -1,0 +1,8 @@
+video{
+  max-width: 425px;
+  max-height: 200px;
+}
+#section8{
+  display: flex;
+  justify-content: center;
+}

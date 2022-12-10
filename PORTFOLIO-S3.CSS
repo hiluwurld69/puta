@@ -1,0 +1,119 @@
+#section3 {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.s3-c-s3cs{
+  width: 1000px;
+  height: 50vh;
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.s3-container {
+position: relative;
+font-family: sans-serif;
+width: fit-content;
+height: fit-content;
+color: white;
+text-align: center;
+}
+
+.s3-container::before, .s3-container::after {
+content: "";
+background-color: #ff3333;
+position: absolute;
+}
+
+.s3-container::before {
+border-radius: 50%;
+width: 6rem;
+height: 6rem;
+top: 1%;
+right: 50%;
+transform: translateX(50%);
+}
+.s3c3::before{
+top: 4%;
+}
+
+.s3-container::after {
+content: "";
+position: absolute;
+height: 3rem;
+top: 8%;
+right: 5%;
+border: 1px solid;
+}
+
+.s3-container .s3-con-box {
+width: 11.875em;
+height: 15.875em;
+padding: 1rem;
+background-color: rgba(255, 255, 255, 0.074);
+border: 1px solid rgba(255, 255, 255, 0.222);
+-webkit-backdrop-filter: blur(20px);
+backdrop-filter: blur(20px);
+border-radius: .7rem;
+transition: all ease .3s;
+}
+
+.s3-container .s3-con-box {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+.s3-container .s3-con-box .s3-con-box-title {
+font-size: 2rem;
+font-weight: 500;
+letter-spacing: .1em
+}
+
+.s3-container .s3-con-box div strong {
+display: block;
+margin-bottom: .5rem;
+}
+
+.s3-container .s3-con-box div p {
+margin: 0;
+font-size: .9em;
+font-weight: 300;
+letter-spacing: .1em;
+}
+
+.s3-container .s3-con-box div span {
+font-size: .7rem;
+font-weight: 300;
+}
+
+.s3-container .s3-con-box div span:nth-child(3) {
+font-weight: 500;
+margin-right: .2rem;
+}
+
+.s3-container .s3-con-box:hover {
+box-shadow: 0px 0px 20px 1px #ffbb763f;
+border: 1px solid rgba(255, 255, 255, 0.454);
+}
+.s3-con-div2{
+font-size: 15px;
+}
+@media (max-width:745px) {  
+  .s3-c-s3cs {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: fit-content;
+  }
+  #section3{
+    height: fit-content;
+  }
+  
+  
+  }

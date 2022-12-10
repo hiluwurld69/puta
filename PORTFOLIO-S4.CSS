@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Secular+One&display=swap');
+   
+   /*   */
+
+
+  #section4 h1{
+    font-size: 2.4rem;
+    font-family: 'Secular One', sans-serif;
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    letter-spacing: 1.5px;
+  }
+
+  #section4 span{
+      color: #ff3333;
+    }
+
+@media (max-width:745px) {  
+  #section4 {
+  margin-top: 50px;
+  height: fit-content;
+  }
+  
+  
+  
+  }
+ 
+  

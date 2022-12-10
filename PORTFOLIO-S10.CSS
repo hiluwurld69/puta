@@ -1,0 +1,52 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Secular+One&display=swap');
+ 
+#section10{
+  text-align: center;
+  margin-bottom: 100px;
+  padding-top: 50px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#section10 p{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+#section10 h1, h4 {
+  font-family: 'Secular One', sans-serif;
+  color: white;
+  letter-spacing: 1.5px;
+}
+#section10 h1{
+  font-size: 2.4rem;
+  width: 100%;
+  max-height: 300px;
+  letter-spacing: 1.5px;
+  margin-bottom: 0;
+}
+#section10 span{
+    color: #ff3333;
+  }
+  #section10 h4{
+    margin-top: 0;
+    font-weight: 100;
+  }
+  .s10-num{
+    margin-bottom: 0;
+  }
+  .fa-facebook, .fa-linkedin{
+    font-size: 40px;
+    color: white;
+    transition: color 0.5s;
+  }
+  .fa-facebook:hover, .fa-linkedin:hover{
+    color:#ff3333;
+  }
+  .s10-div1{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+  }

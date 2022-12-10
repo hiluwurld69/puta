@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Secular+One&display=swap');
+
+
+    #section9{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      flex-wrap: wrap-reverse;
+      margin-top: 50px;
+    }
+  .s9d1{
+    width: 600px;
+    height: 600px;
+  }
+  #svg-s9d1{
+    height: 100%;
+    width: 100%;
+  }
+  .s9d2{
+    height: 500px;
+    width: 500px;
+  }
+   .s9d2 h1{
+  font-size: 2.4rem;
+  font-family: 'Secular One', sans-serif;
+  width: 100%;
+  max-height: 300px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  letter-spacing: 1.5px;
+    color: white;
+}
+.s9d2 span{
+    color: #ff3333;
+  }
+  .s9d2 p {
+    color: white;
+    line-height: 50px;
+    font-family: 'Secular One', sans-serif;
+  }
+
+  @media (max-width:885px) {  
+    .s9d2 {
+    height: 300px;
+    text-align: center;
+    }
+   
+    
+    }
